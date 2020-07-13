@@ -1,0 +1,115 @@
+<!--https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5
+-->
+<!doctype html>
+<html lang = "en">
+    <body>
+    <head>
+        <title>Kate Spencer</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <link rel='icon' href='favicon.ico'>
+    </head>
+    
+
+    
+    
+    <img src="IMG_2041.JPEG" alt="Kate dressed in a cardboard wind turbine costume" id= "headshot">
+    
+    <h1>
+        Kate (Catherine) Spencer
+    </h1>
+    <h2>
+        Smith College 2022 | Engineering Sciences Major | Computer Science Minor
+    </h2>
+    <div id = "bio" center >
+        <p>
+        I am a sophomore from Seattle, WA interested in both computer science and engineering as well as sustainability and design. For the summer of 2020, I am a research assitant in the Grubb Lab at Smith. Outside of academics I sing in the Smith College Glee Club, and enjoy a variety of crafts.<br>zBelow are some of my recent experiences and projects!
+        </p>
+    </div>
+    <div id = "contact">
+        <a class="link" href="https://www.linkedin.com/in/cmbspencer/">LinkedIn</a>
+        <a class="link" href="https://github.com/kmbspencer">GitHub</a>
+        <a class="link" href="https://twitter.com/kmbspencer">Twitter</a>
+        <a class="link" href="mailto: kspencer@smith.edu">Email</a>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openProject(event, 'Research2')">Goal Modeling Research</button>
+        <button class="tablinks" onclick="openProject(event, 'TA1')">Engine TA</button>
+        <button class="tablinks" onclick="openProject(event, 'House')">House Leadership</button>
+        <button class="tablinks" onclick="openProject(event, 'Trusses')">Mechanics Project: Trusses</button>
+        <button class="tablinks" onclick="openProject(event, 'Research1')">Summer 2019 Research</button>
+        <button class="tablinks" onclick="openProject(event, 'Grace')">HackHer 2019: InspireHer</button>
+        <button class="tablinks" onclick="openProject(event, 'TinyTown')">EGR 100: Houses</button>
+    </div>
+
+    <!-- Tabs! -->
+    <div class = "tabspace">
+    <div id="Trusses" class="tabcontent" >
+        <h3>Class Project, Fall 2019</h3>
+        <p class = "column">For Engineering 270: Mechanics as a class we were tasked in pairs to create a truss bridge that could hold 5g/N when crushed in the Instrom. While most of the bridges were unable to hold that weight, ours made it to 5.07N/g and was the lightest bridge to do so. It eventually failed by warping in and out of the plane, which was intersting because we had analyzed it as a 2D truss, and applying half of the force. With that analysis, the truss should have been able to withstand about 800N, but in reality, the connections between the two trusses were the weakest part.</p>
+        
+        <div class = "column" >
+            <img src="IMG_6937.jpg" alt="Kate and lab partner Helen with the crushed trusses in the instrom." class = "picture">
+            <img src="IMG_20191109_141432.jpg" alt="Popsicle stick truss" class = "picture" >
+        </div>
+        <!--<a href="Truss Crushing Lab Danielson, Spencer.pdf">Lab Report</a>--->
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+
+    <div id="Research2" class="tabcontent">
+        <h3>Grubb Lab</h3>
+        <p>Spring 2020-Present <br><br>
+        Starting in the spring of 2020 I have been working in the Grubb Software Engineering Lab developing and implementing additional functionality for the BloomingLeaf, a a web-based tool for modeling and analyzing (Tropos like) formal goal models with evolving intentions.</p>
+        <a class="link" href="https://github.com/amgrubb/BloomingLeaf">More info on BloomingLeaf</a>
+        <!--<a href="IStarPaper.pdf">Paper Submission to IStar 2020</a>--->
+        <br>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+
+    <div id="Research1" class="tabcontent">
+        <h3>UW CEBR</h3>
+        <p>Summer 2019<br>
+        I was a research assistant in the Mackensie Lab in the department of Material Science. This was through the Clean Energy Institute and was their Clean Energy Bridge to Research Program. My project was focused on developing a new solution processing technique for perovskite photovoltaics, as well as shadowing and assisting in various other work relating to perovskites.</p>
+        <img src="IMG_20190715_162725.jpg" alt="Spin coating in a glovebox" class = "picture">
+        <!--<a href="SpencerFinalResearchPresentation2019UW.pdf">Final Presentation</a>--->
+        <a class="link" href="https://www.washington.edu/undergradresearch/clean-energy-bridge-to-research-cebr/cebr-students/">CEBR Website</a>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+
+    <div id="TinyTown" class="tabcontent">
+        <h3>Class Project, Fall 2018</h3>
+        <p class ="column">As the culminating project of Engineering 100 Engineering for Everyone: Energy and the Environment the class made a Tiny Town of model houses, set out on the lawn in mid December that had to regulate their own internal temperature using a combination of thermal masses, and servo moters that were able to open doors or hatches. My team built our house inspired by old castle ruins and a Mondrian painting. Our house is still on display in the atrium of Ford Hall at Smith College.</p>
+        <div class = column>
+        <img src="IMG_9683.jpg" alt="Team members with the small house" class = "picture">
+        <img src="DSCF2201.jpg" alt="Tiny House on the lawn" class = "picture">
+        </div>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+
+    <div id="House" class="tabcontent">
+        <h3>Head of New Students for Parsons House</h3>
+        <p>At Smith, students most commonly live in houses, dorms of 20-100 with strong communities. My first year, the house coommunity was an important part of my Smith experience, and I wanted to make my house, Parsons, as welcoming as possible for the incoming class! As a Head of New Students (HONS) I helped with move in, ran house events, and generally was a friendly face to the class of 2023. <br> In the Fall of 2020 I plan to continue my involvement in house community as the House President.</p>
+        <img src="IMG_20190830_081617.jpg" alt="Kate Co-HONS Campbell with Parsons house banner" class = "picture">
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+
+    <div id="TA1" class="tabcontent">
+        <h3>Lawnmower Engine TA</h3>
+        <p>Spring 2020 - Present<br><br>
+            Students in Engineering 110: Fundamentals of Engineering all participate in the Lawnmower Engine Lab, where they take apart an old lawnmower engine, meet with a TA to discuss the mass and energy flows that power it, then reassemble the engine. My first year I absolutly loved this project. I enjoyed getting to do something hands on, as well as getting to apply theoretical knowledge to a real peice of machinery. As a TA I enjoy getting to share this project with the first years, while at the same time getting to connect with a new year of engineers! The best part of engineering at Smith is the community, and this possition helps me connect with friends I might not have met otherwise. </p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    
+
+    <div id="Grace" class="tabcontent">
+        <h3>HackHer 2019 Demo</h3>
+        <p>At HackHer 2019, together with Jessica Keast and Julia Heinz we demoed a prototype of Daily Role Models, a Chrome extention that customized the users search homepage to include the biography of someone from an underepresnted group in STEM along with links to relevant learning resources. Being only halfway through my intro CS class, with only a prior background of AP CS in Java, building even a simple page with HTML and CSS was a very new experience, let alone adding it to the Chrome Store as an extention. Never the less, working on Daily Role Models was an inspiring experience, as I saw how much I could learn and build in just a few short hours. </p>
+        <img src="2019-02-09_213945.jpg" alt="Kate, Jessica, and Julia at HackHer413" class = "picture">
+        <img src="grace7.jpg" alt="Daily Role Models Prototype" class = "picture">
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    </div>
+
+    </body>
+</html>
